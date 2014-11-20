@@ -106,7 +106,7 @@ NewBar Wordpress Theme Copyright (c) 2014 GamerPotion.
 
 
 
-body {
+ body {
     font-family: 'open sans', sans-serif;
     background-color: #ffffff;
     color: #141414;
@@ -162,7 +162,7 @@ a:active {
 
 
 
-h1 {
+ h1 {
     font-family: 'open sans', sans-serif;
     font-size: 15pt;
     color: #141414;
@@ -212,7 +212,7 @@ h6 {
 
 
 
-#wrapper {
+ #wrapper {
     font-family: 'open sans', sans-serif;
     display: block;
     width: 960px;
@@ -229,8 +229,14 @@ h6 {
 #header {
     text-align: center;
     margin: 0 auto;
-    width: 960px;
+    width: 730px;
     clear: both;
+    overflow: auto;
+    background-image: url(http://incase-upi.com/wp-content/uploads/2014/11/logo.png);
+    background-size: 200px 160px;
+    background-repeat: no-repeat;
+    padding-left: 230px;
+    background-position: 20px 20px;
 }
 
 #container {
@@ -288,7 +294,7 @@ h6 {
 
 
 
-.site-title {
+ .site-title {
     font-family: 'open sans', sans-serif;
     color: #000000;
     font-size: 40pt;
@@ -349,7 +355,7 @@ h6 {
 
 
 
-#content {
+ #content {
     font-family: 'open sans', sans-serif;
     width: 70%;
     float: right;
@@ -532,7 +538,7 @@ table {
 
 
 
-.post-title {
+ .post-title {
     font-weight: 400;
     max-width: 632px !important;
     height: auto;
@@ -591,7 +597,7 @@ table {
 
 
 
-.format-standard .post-title a:before {
+ .format-standard .post-title a:before {
     font: normal 20px Genericons;
     text-decoration: none;
     margin-right: 5px;
@@ -675,7 +681,7 @@ table {
 
 
 
-a.more-link {
+ a.more-link {
     font-family: 'open sans', sans-serif;
     margin: 0px;
     clear: both;
@@ -721,7 +727,7 @@ a:hover.more-link {
 
 
 
-.commentstext {
+ .commentstext {
     text-decoration: none;
     clear: both;
     display: block;
@@ -764,7 +770,7 @@ a:hover.more-link {
 
 
 
-.gallery-caption {
+ .gallery-caption {
     font-family: 'open sans', sans-serif;
     text-decoration: none;
     color: #888888;
@@ -871,7 +877,7 @@ a img.aligncenter {
 
 .wp-caption {
     max-width: 96%;
- /* Image does not overflow the content area */
+    /* Image does not overflow the content area */
     padding: 0px 0px 0px;
     text-align: center;
     font-family: 'open sans', sans-serif;
@@ -926,7 +932,7 @@ a img.aligncenter {
 
 
 
-.authortek {
+ .authortek {
     background: #f5f5f5;
     border: 1px solid #dddddd;
     padding: 10px;
@@ -986,7 +992,7 @@ a img.aligncenter {
 
 
 
-#comment {
+ #comment {
     font-family: 'open sans', sans-serif;
     background-color: #f5f5f5;
     color: #141414;
@@ -1122,7 +1128,7 @@ a img.aligncenter {
 
 
 
-.form-allowed-tags {
+ .form-allowed-tags {
     font-family: 'open sans', sans-serif;
     font-size: 12pt;
     display: none;
@@ -1142,7 +1148,7 @@ a img.aligncenter {
 
 
 
-ol.comment-list {
+ ol.comment-list {
     list-style-type: none;
     margin: 0;
 }
@@ -1166,7 +1172,7 @@ ol.children {
 
 
 
-#sidebar {
+ #sidebar {
     font-family: 'open sans', sans-serif;
     width: 28%;
     float: left;
@@ -1243,7 +1249,7 @@ ol.children {
 
 
 
-.sidebarhd {
+ .sidebarhd {
     font-family: 'open sans', sans-serif;
     text-decoration: none;
     margin-top: 5px;
@@ -1291,7 +1297,7 @@ sidebar.sidebarhd {
 
 
 
-.rsswidget {
+ .rsswidget {
     font-family: 'open sans', sans-serif;
     text-decoration: none;
     color: #808080;
@@ -1404,7 +1410,7 @@ table#wp-calendar {
 
 
 
-#footer-sidebar aside {
+ #footer-sidebar aside {
     width: 30%;
     display: inline-block;
     vertical-align: top;
@@ -1568,7 +1574,7 @@ ul li {
 
 
 
-.sidebarhd2 {
+ .sidebarhd2 {
     font-family: 'open sans', sans-serif;
     text-decoration: none;
     margin: 5px 0px 0px 40px;
@@ -1604,7 +1610,7 @@ ul li {
 
 
 
-.delimiter {
+ .delimiter {
     clear: both;
 }
 
@@ -1634,7 +1640,7 @@ ul li {
 
 
 
-.pagi {
+ .pagi {
     font-family: 'open sans', sans-serif;
     color: #000000;
     text-transform: none;
@@ -1668,7 +1674,7 @@ ul li {
 
 
 
-.footer-copyright {
+ .footer-copyright {
     font-size: 12pt;
     font-family: 'open sans', sans-serif;
     color: #000000;
@@ -1741,7 +1747,7 @@ ul li {
 
 
 
-#search {
+ #search {
     float: right;
     width: 400px;
     height: auto;
@@ -1792,7 +1798,7 @@ ul li {
 
 
 
-.navtop {
+ .navtop {
     width: 960px;
     margin: 0 auto;
 }
@@ -1975,7 +1981,7 @@ ul li {
 
 
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
 
     body {
         background-image: none !important;
