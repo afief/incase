@@ -125,8 +125,7 @@ body a {
 body a:hover {
     font-family: 'open sans', sans-serif;
     text-decoration: underline;
-    color: #c3b4b4;
-    font-size: 12pt;
+    color: #00aaff;
 }
 
 a:link {
@@ -1179,7 +1178,7 @@ ol.children {
     font-family: 'open sans', sans-serif;
     text-decoration: none;
     font-size: 11pt;
-    color: #808080;
+    color: #444;
 }
 
 #sidebar ul li a:hover {
@@ -1997,8 +1996,15 @@ ul li {
 }
 
 #container {
-    background-color: #86CDFF;
+    background-color: #3186C2;
 }
 #container3 ul {
     background-color: #030F3F;
+}
+
+.site-title a, .site-description a {
+    color: white;
+}
+.site-description a {
+    font-size: xx-large;
 }

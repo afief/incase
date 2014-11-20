@@ -30,6 +30,8 @@
     
         <div class='site-title'><a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><?php bloginfo( 'name' ); ?></a></div>
         <div class='site-description'><a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><?php bloginfo( 'description' ); ?></a></div>
+        <div class='site-description'><a style="font-size: x-large" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'>Universitas Pendidikan Indonesia</a></div>
+        <div class='site-description' style="text-align: left;"><a style="font-size: medium; text-align: left;" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'>Jl. Dr. Setiabudhi No. 229, Isola, Sukajadi, Bandung. Telepon: +6222-013163. Mobile: +6281320341199. Email: Ddarmawan@upi.edu/diestry2005@yahoo.com</a></div>
 
 <?php endif; ?>
 
