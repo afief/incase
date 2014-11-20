@@ -334,6 +334,7 @@ h6 {
     word-wrap: break-word;
     clear: both;
     float: left;
+    text-align: left;
 }
 
 .site-logo {
