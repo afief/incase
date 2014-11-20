@@ -235,8 +235,8 @@ h6 {
     background-image: url(http://incase-upi.com/wp-content/uploads/2014/11/logo.png);
     background-size: 200px 160px;
     background-repeat: no-repeat;
-    padding-left: 230px;
-    background-position: 20px 20px;
+    padding-left: 250px;
+    background-position: 20px 13px;
 }
 
 #container {
@@ -300,7 +300,6 @@ h6 {
     font-size: 40pt;
     float: left;
     font-weight: 300;
-    padding: 0px 0px 0px 20px;
     max-width: 100% !important;
     word-wrap: break-word;
     clear: both;
@@ -327,10 +326,8 @@ h6 {
 
 .site-description {
     font-family: 'open sans', sans-serif;
-    font-size: 11pt;
     color: #bbbbbb;
     text-transform: none;
-    padding: 0px 0px 10px 20px;
     word-wrap: break-word;
     clear: both;
     float: left;
@@ -2012,6 +2009,9 @@ ul li {
 .site-title a, .site-description a {
     color: white;
 }
+.site-title a {
+    font-weight: bold;
+}
 .site-description a {
-    font-size: xx-large;
+    font-size: 21pt;
 }
