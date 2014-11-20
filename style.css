@@ -1372,6 +1372,7 @@ table#wp-calendar {
     margin: 0;
     padding: 0;
     word-wrap: break-word;
+    padding-left: 10px;
 }
 
 #sidebar li {
@@ -1385,7 +1386,7 @@ table#wp-calendar {
 #sidebar ul li {
     list-style-type: none;
     list-style-position: inside;
-    margin: 0;
+    margin: 5px 0px;
     padding: 0;
     word-wrap: break-word;
 }
@@ -1996,8 +1997,8 @@ ul li {
 }
 
 #container {
-    background-color: #FCFB8D;
+    background-color: #86CDFF;
 }
 #container3 ul {
-    background-color: #3F3E03;
+    background-color: #030F3F;
 }
