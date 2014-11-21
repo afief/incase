@@ -97,7 +97,20 @@
 
 
 <div class="delimiter"></div>
+<div id="container2">
+<div id="footer">
 
+<div id="footer-sidebar">        
+            <?php if ( is_active_sidebar( 'footer-sidebar' ) ) { ?>
+                    <?php dynamic_sidebar( 'footer-sidebar' ); ?>
+            <?php } ?>
+    </div>
+
+<div class="footer-copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?></div>
+<div class="toplink"><a href="#"></a></div>
+
+</div>
+</div>
 
 
 </div>

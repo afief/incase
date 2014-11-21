@@ -108,11 +108,12 @@ NewBar Wordpress Theme Copyright (c) 2014 GamerPotion.
 
  body {
     font-family: 'open sans', sans-serif;
-    background-color: #ffffff;
+    background-color: #eeeeee;
     color: #141414;
     margin: 0 auto;
     padding: 0;
     font-size: 12pt;
+    background-image: url("images/bg.png");
 }
 
 body a {
@@ -219,6 +220,8 @@ h6 {
     margin: auto;
     padding: 0px 0px 5px 0px;
     clear: both;
+    background-color: white;
+    box-shadow: 0px 0px 10px -3px #444;
 }
 
 #wrapper a {
@@ -1700,7 +1703,7 @@ ul li {
 }
 
 .toplink {
-    margin-right: 10px;
+    margin-right: 50px;
     vertical-align: text-top;
 }
 
@@ -2004,6 +2007,12 @@ ul li {
 }
 #container3 ul {
     background-color: #030F3F;
+}
+#container2 {
+    width: 95%;
+    padding: 20px 2%;
+    border-top: solid 1px #ddd;
+    background-color: #eee;
 }
 
 .site-title a, .site-description a {
