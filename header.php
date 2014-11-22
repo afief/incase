@@ -28,11 +28,10 @@
 
 <?php else : ?>
     
-        <div class='site-title'><a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><?php bloginfo( 'name' ); ?></a></div>
-        <div class='site-description'><a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><?php bloginfo( 'description' ); ?></a></div>
-        <div class='site-description'><a style="font-size: x-large" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'>Universitas Pendidikan Indonesia</a></div>
-        <div class='site-description' style="text-align: left;"><a style="font-size: small; text-align: left;" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'>Office: SPs Lantai 5 Universitas Pendidikan Indonesia, Jl. Dr. Setiabudhi No. 229 Isola Sukajadi Bandung. Telepon: +6222-013163. Mobile: +6281320341199. Email: Ddarmawan@upi.edu/diestry2005@yahoo.com</a></div>
-
+        <!--  <div class='site-title'><a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><?php bloginfo( 'name' ); ?></a></div> -->
+        <div class='site-description'><?php bloginfo( 'description' ); ?></div>
+        <div class='site-description alamat'>Gedung SPS-UPI, Jln. Dr. Setiabudhi No. 229 Bandung 40154  Tlp. (022) 2001197 Fax. (022) 2001197</div>
+        <div class="site-description alamat">Website : <a href="http://incase-upi.com">http://incase-upi.com</a>,<a href="http://sps.upi.edu">http://sps.upi.edu</a> Email <a href="mailto:pascasarjana@upi.edu">pascasarjana@upi.edu</a></div>
 <?php endif; ?>
 
 </div>

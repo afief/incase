@@ -106,7 +106,7 @@
             <?php } ?>
     </div>
 
-<div class="footer-copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?></div>
+<div class="footer-copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?> | Ddarmawan@upi.edu/diestry2005@yahoo.com, Mobile: +6281320341199.</div>
 <div class="toplink"><a href="#"></a></div>
 
 </div>

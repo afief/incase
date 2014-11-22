@@ -120,7 +120,6 @@ body a {
     font-family: 'open sans', sans-serif;
     text-decoration: none;
     color: #808080;
-    font-size: 12pt;
 }
 
 body a:hover {
@@ -232,13 +231,13 @@ h6 {
 #header {
     text-align: center;
     margin: 0 auto;
-    width: 660px;
+    width: 710px;
     clear: both;
     overflow: auto;
     background-image: url(images/logo.png);
-    background-size: 200px 180px;
+    background-size: 110px 100px;
     background-repeat: no-repeat;
-    padding-left: 250px;
+    padding-left: 160px;
     background-position: 20px 13px;
 }
 
@@ -333,8 +332,7 @@ h6 {
     text-transform: none;
     word-wrap: break-word;
     clear: both;
-    float: left;
-    text-align: left;
+    width: 100%;
 }
 
 .site-logo {
@@ -2021,6 +2019,12 @@ ul li {
 .site-title a {
     font-weight: bold;
 }
-.site-description a {
-    font-size: 21pt;
+.site-description {
+    word-break: keep-all;
+    font-size: xx-large;
+    color: white;
+}
+.site-description.alamat {
+    font-size: smaller;
+    text-align: center;
 }
